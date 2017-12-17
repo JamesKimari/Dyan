@@ -35,8 +35,17 @@ padding: 0;
 
 }
 
+#dyan-details .form-control {
+  border-color: hotpink;
+}
+
+.form-control::placeholder {
+  color: hotpink;
+  opacity: 0.3;
+}
+
 .dyan, .dyan2 {
-  display: none;
+  /* display: none; */
   color: black;
 }
 
@@ -53,6 +62,9 @@ svg {
 text {
   color: white;
   margin-top: 0%;
+}
+hr {
+  border-color: hotpink;
 }
 
 .text-copy {
