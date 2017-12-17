@@ -35,6 +35,10 @@ padding: 0;
 
 }
 
+.img-thumbnail {
+  border-color: rgba(30, 144, 255, 0.6);
+}
+
 #dyan-details .form-control {
   border-color: dodgerblue;
 }
