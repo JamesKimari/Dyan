@@ -35,13 +35,9 @@ padding: 0;
 
 }
 
-.dyan {
+.dyan, .dyan2 {
   display: none;
   color: black;
-}
-
-.dyan2 {
-  display: none;
 }
 
 .clickme {
