@@ -37,6 +37,16 @@ padding: 0;
 
 .dyan {
   display: none;
+  color: black;
+}
+
+.dyan2 {
+  display: none;
+}
+
+.clickme {
+  color: dodgerblue;
+  text-decoration: underline;
 }
 
 svg {

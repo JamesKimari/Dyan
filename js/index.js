@@ -13,4 +13,7 @@ $(document).ready(function() {
     var passWord = $("input#password").val()
     showDyan(passWord)
   })
+  $(".clickme").click(function() {
+    $('.dyan2').show()
+  })
 })
