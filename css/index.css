@@ -1,6 +1,6 @@
 body {
   font-family: Arial;
-  color: white;
+  color: black;
 }
 
 .body-container {
@@ -26,7 +26,7 @@ body {
 
 #box {
   border-radius: 2%;
-  height: 17em;
+  height: 14em;
   width: 20em;
   margin: 0em -25em;
   -webkit-animation-name: move;
@@ -36,7 +36,7 @@ body {
   -webkit-animation-timing-function: linear;
 }
 
-#box p{
+#box p {
   text-align: center;
 }
 
@@ -88,7 +88,6 @@ body {
 
 .dyan, .dyan2 {
   display: none;
-  color: black;
 }
 
 .clickme {
