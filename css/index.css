@@ -1,6 +1,7 @@
 body {
   font-family: Arial;
   color: black;
+  text-align: center;
 }
 
 .body-container {
@@ -34,10 +35,6 @@ body {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-direction: right;
   -webkit-animation-timing-function: linear;
-}
-
-#box p {
-  text-align: center;
 }
 
 #box:hover {
