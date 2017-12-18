@@ -68,7 +68,7 @@ body {
   border-radius: 50%;
   border-style: solid;
   border-width: 0.5%;
-  border-color: rgba(0 0 0 0.5);
+  border-color: #18b0ef;
   margin: 4.5% 0% 0% 3%;
   z-index: 1;
 }
