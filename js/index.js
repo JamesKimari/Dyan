@@ -22,6 +22,6 @@ $(document).ready(function() {
   })
   $('.somemagic').click(function() {
     $('.typewriter').show()
-    scrollTo($('#lastword'), 1000);
+    scrollTo($('.Diana'),2000);
   })
 })
