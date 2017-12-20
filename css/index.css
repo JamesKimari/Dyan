@@ -25,6 +25,15 @@ body {
   margin: 1.5em auto;
 }
 
+@-webkit-keyframes move {
+  0% {
+    margin-left: -25em;
+  }
+  100% {
+    margin-left: 30em;
+  }
+}
+
 #box {
   border-radius: 2%;
   height: 14em;
@@ -33,21 +42,12 @@ body {
   -webkit-animation-name: move;
   -webkit-animation-duration: 3s;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-direction: right;
+  -webkit-animation-direction: alternate;
   -webkit-animation-timing-function: linear;
 }
 
 #box:hover {
   -webkit-animation-play-state: paused;
-}
-
-@-webkit-keyframes move {
-  0% {
-    margin-left: -21em;
-  }
-  100% {
-    margin-left: 30em;
-  }
 }
 
 .container {
