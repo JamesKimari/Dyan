@@ -18,7 +18,7 @@ $(document).ready(function() {
   })
   $(".clickme").click(function() {
     $('.dyan3').show()
-    scrollTo($('.somemagic'), 1000);
+    scrollTo($('.somemagic'), 2000);
   })
   $('.somemagic').click(function() {
     $('.typewriter').show()
