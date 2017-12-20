@@ -4,7 +4,7 @@ var showDyan = function(passWord) {
   if (passWord === "DianaMurugi7") {
     $(".dyan2").show()
   } else {
-    alert("Oooops! Sorry " + userName + ". It's meant for Diana's eyes only.")
+    alert("Oooops! Sorry " + userName + ", " + passWord + " is an incorrect password.")
   }
 }
 
