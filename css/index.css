@@ -171,7 +171,7 @@ body {
 }
 
 .dyan2, .dyan3, .typewriter {
-  /* display: none; */
+  display: none;
 }
 
 .clickme {
