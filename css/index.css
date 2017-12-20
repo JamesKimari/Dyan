@@ -25,30 +25,78 @@ body {
   margin: 1.5em auto;
 }
 
-/* @-webkit-keyframes move {
+@keyframes colors {
   0% {
-    margin-left: -25em;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+  }
+  25% {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+  }
+  50% {
+    background-color: darkorange;
+    border-color: darkorange;
   }
   100% {
-    margin-left: 30em;
+    background-color: hotpink;
+    border-color: hotpink;
   }
 }
 
-#box {
-  border-radius: 2%;
-  height: 14em;
-  width: 20em;
-  margin: 0em -25em;
-  -webkit-animation-name: move;
-  -webkit-animation-duration: 3s;
+#happybirthday {
+  -webkit-animation-name: colors;
+  -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
+  -webkit-animation-direction: normal;
   -webkit-animation-timing-function: linear;
 }
 
-#box:hover {
-  -webkit-animation-play-state: paused;
-} */
+@keyframes dpicolors {
+  0% {
+    border-color: #18b0ef;
+  }
+  25% {
+    border-color: deepskyblue;
+  }
+  50% {
+    border-color: darkorange;
+  }
+  100% {
+    border-color: hotpink;
+  }
+}
+
+#dpic {
+  -webkit-animation-name: colors;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: linear;
+}
+
+@keyframes heartcolors {
+  0% {
+    font-size: 0.6em;
+  }
+  25% {
+    font-size: 0.8em;
+  }
+  50% {
+    font-size: 1.0em;
+  }
+  100% {
+    font-size: 1.2em;
+  }
+}
+
+#heart {
+  -webkit-animation-name: heartcolors;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: linear;
+}
 
 .container {
   margin: 0% 5% 0% 5%;
@@ -59,7 +107,7 @@ body {
   padding: 0;
 }
 
-.header img {
+#dpic {
   width: 13%;
   position: absolute;
   border-radius: 50%;
