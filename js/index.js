@@ -26,6 +26,6 @@ $(document).ready(function() {
   })
   $('.Diana').click(function() {
     $('.HBD').show()
-    scrollTo($('.Diana2'), 2000);
+    scrollTo($('#Diana2'), 2000);
   })
 })
