@@ -1,3 +1,19 @@
+@media screen and (min-width: 769px) {
+  body {
+    padding: 0% 20% 0% 20%;
+  }
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 360px) {
+  .container {
+    margin: auto;
+    width: auto;
+  }
+}
+
 body {
   font-family: Arial;
   color: black;
@@ -75,7 +91,7 @@ body {
   -webkit-animation-timing-function: linear;
 }
 
-@keyframes heartcolors {
+@keyframes heartsizes {
   0% {
     font-size: 0.6em;
   }
@@ -91,8 +107,31 @@ body {
 }
 
 #heart {
-  -webkit-animation-name: heartcolors;
+  -webkit-animation-name: heartsizes;
   -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: linear;
+}
+
+@keyframes textcolors {
+  0% {
+    color: dodgerblue;
+  }
+  25% {
+    color: mediumseagreen;
+  }
+  50% {
+    color: darkorange;
+  }
+  100% {
+    color: hotpink;
+  }
+}
+
+.somemagic, .somemagic2 {
+  -webkit-animation-name: textcolors;
+  -webkit-animation-duration: 4s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-direction: normal;
   -webkit-animation-timing-function: linear;
@@ -132,7 +171,7 @@ body {
 }
 
 .dyan2, .dyan3, .typewriter {
-  display: none;
+  /* display: none; */
 }
 
 .clickme {
