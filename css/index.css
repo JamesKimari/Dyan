@@ -25,7 +25,7 @@ body {
   margin: 1.5em auto;
 }
 
-@-webkit-keyframes move {
+/* @-webkit-keyframes move {
   0% {
     margin-left: -25em;
   }
@@ -48,7 +48,7 @@ body {
 
 #box:hover {
   -webkit-animation-play-state: paused;
-}
+} */
 
 .container {
   margin: 0% 5% 0% 5%;
