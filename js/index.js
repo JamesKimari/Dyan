@@ -1,7 +1,7 @@
 var showDyan = function(passWord) {
   var userName = $("input#Username").val()
   var passWord = $("input#password").val()
-  if (passWord === "DiAnaMuRUgi7") {
+  if (passWord === "DianaMurugi7") {
     $(".dyan2").show()
   } else {
     alert("Oooops! Sorry " + userName + ", " + passWord + " is an incorrect password.")
@@ -15,6 +15,7 @@ $(document).ready(function() {
     var passWord = $("input#password").val()
     showDyan(passWord)
     scrollTo($('.dyan2'), 1000);
+    $('#particula').show()
   })
   $(".clickme").click(function() {
     $('.dyan3').show()
